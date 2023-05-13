@@ -1,0 +1,174 @@
+#mainHomePage{
+    margin-bottom : 20px;
+}
+.home-container{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    transition: 0.5s;
+    
+}
+.homeContent-container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.homeText-container{
+    width: 45%;
+    height: 45%;
+    padding: 15px;
+    margin-right: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+
+
+}
+.homeText-title{
+
+}
+.homeText-content{
+
+}
+.homeBtn-container{
+
+}
+.homeImage-container{
+ 
+}
+.homeImage{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+.carouselContainer{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousels{
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: rgb(251, 251, 192);
+    transition: 0.3s;
+}
+
+.active{
+    background-color: rgb(74, 74, 74);
+}
+.modeBtn{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
+}
+ 
+.darkMode{
+    background-color: black;
+}
+ 
+.darkMode .homeText-title,
+.darkMode .homeText-content{
+    color: white;
+}
+
+.darkMode .carouselContainer{
+    background-color: black;
+}
+#mainMenuPage{
+    height: 90vh;
+}
+.menu-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.menu-container h2{
+    margin-bottom : 20px;
+    padding: 10px;
+    border-bottom: 5px solid black;
+}
+.menu-btn{
+    margin-top: 15px;
+}
+.menu-btn button{
+    width: 150px;
+    margin-top: 15px;
+    padding:8px 18px;
+    border: 3px solid gold;
+    outline: none;
+    border-radius: 5px;
+    margin: 0px 2px;
+    transition: 0.2s;
+}
+.menu-btn button:hover{
+    background-color: goldenrod;
+}
+
+.menuBody-container{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.menuBox-container{
+    width:490px;
+    margin:10px;
+    background-color: bisque;
+    border-radius: 15px;
+}   
+.menuBox{
+    display: flex;
+    gap: 20px;
+}
+.menuImage-container{
+}
+.menuImage{
+    width: 210px;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+ 
+}
+.menuTextContent-container{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.menuTextTitle{
+    width: 107px;
+    padding-bottom: 10px;
+    border-bottom: 5px solid black;
+}
+.menuTextContext{
+    text-align: left;
+}
+.activeBtn{
+    background-color: goldenrod;
+}
+.act{
+    background-color:goldenrod;
+}
+#mainAboutPage{
+    height: 90vh;
+}
